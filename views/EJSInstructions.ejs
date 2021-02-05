@@ -1,0 +1,20 @@
+    <!--action = route through with action is taking place-->
+    <!--method = type of request like GET, POST, DELETE, etc.-->
+    <!-- we donot use GET request for id-pass because it is not encrypted in URL, so we use POST request-->
+    
+    <form action = "/result" method = "GET">
+        <label>Enter a movie name</label>
+        <br>
+        <!--type = type of input, webpage is taking as -->
+        <!--name = it is name which will be played in the server parameter -->
+        <!--placeholder = dummy text inside the input box -->
+        <!-- required = needs to be filled without which we can't submit -->
+        <input type="text" name="moviename" placeholder="Movie Name" required>
+        <!--
+            <input type="password" name="password" placeholder="password" required>
+        -->
+        <!--On clicking submit button, it will automatically submit (redirect) current html page-->
+        <button>submit</button>
+    </form>
+
+    
